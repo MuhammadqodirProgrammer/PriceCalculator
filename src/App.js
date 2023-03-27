@@ -18,10 +18,7 @@ const totalRef =useRef()
 const [total, setTotal] = useState(0);
 const [disconect, setDisconect] = useState(0);
 const [discount, setDiscount] = useState(0);
-  const handleSubmit = (evt) =>{
-evt.preventDefault();
 
-}
 
 
 const handleChange = ()=>{
@@ -33,7 +30,7 @@ const handleChange = ()=>{
   const r2 =radioRef2?.current
   const r3=radioRef3?.current
   const r4 =radioRef4?.current
-  const elTotal =totalRef?.current
+//   const elTotal =totalRef?.current
  
   
 
@@ -160,7 +157,7 @@ setTotal(280)
 				</h1>
 				<div className='line'></div>
 
-				<form onChange={handleChange} id='weddingCalc ' action="https://echo.htmlacademy.ru/" className=' border  p-4 border-gray-300 mt-4' onSubmit={handleSubmit}>
+				<form onChange={handleChange} id='weddingCalc ' action="https://echo.htmlacademy.ru/" className=' border  p-4 border-gray-300 mt-4' >
 					<div className='border border-gray-300 p-2  '>
 						Event type:
 						<div className='my-2'>
