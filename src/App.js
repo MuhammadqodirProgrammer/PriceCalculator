@@ -121,15 +121,18 @@ setTotal(280)
     r3.parentElement?.classList.add("selectedType")
   } 
  
-  if(r2.checked ){
-    setDisconect(disconect > 0 ? (disconect - 40) : 0)
-    setDiscount(discount > 0 ? (discount - 10) : 0)
-    setTotal(total - 30)
-  }else if(r4.checked){
-    setDisconect(disconect > 0 ? (disconect + 40) : 0)
-    setDiscount(discount > 0 ? (discount + 10) : 0)
-    setTotal(total + 30)
-  }
+//   if(r2.checked ){
+//     setDisconect(disconect > 0 ? (disconect - 40) : 0)
+//     setDiscount(discount > 0 ? (discount - 10) : 0)
+//     setTotal(total > 0 ? (total - 30) : 0)
+//   }else if(r4.checked){
+//     setDisconect(disconect > 0 ? (disconect + 40) : 0)
+//     setDiscount(discount > 0 ? (discount + 10) : 0)
+// 	setTotal(total > 0 ? (total + 30) : 0)
+
+//   }
+
+
   // select 
   let elIndex = selectRef.current?.options?.selectedIndex
 
