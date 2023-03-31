@@ -1,0 +1,114 @@
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 385px !important;
+    height: 354px;
+    background: #fff;
+ 
+    
+  }
+.card{
+    width: 350px;
+    margin: 0 auto;
+    height: 100%;
+    margin: 0 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+@media  (max-width:1400px) {
+    .card{
+width: 380px;
+    }
+}
+.card_bg_1{
+    background-image: url(../../../images/indebt-1.webp);
+}
+
+.card_bg_2{
+    background-image: url(../../../images/idealcleaning.webp);
+}
+.card_bg_3{
+    background-image: url(../../../images/mamirovgroup.webp);
+}
+.card_bg_4{
+    background-image: url(../../../images/indebt.webp);
+}
+.card_bg_5{
+    background-image: url(../../../images/suvtaminoti.webp);
+}
+.card_bg_6{
+    background-image: url(../../../images/lazydev.webp);
+}
+.bg_content{
+    width: 100%;
+
+position: absolute;
+top: calc(100% - 0px);
+left: 0;
+height: 100%;
+z-index: 1;
+transition: 0.6s;
+
+}
+.dev_top{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10pc;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+font-size: 22px;
+}
+.strelke{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    top: -30px;
+    transform: rotate(0.1turn);
+
+}
+.content{
+    position: relative;
+    background-color: black;
+    max-height: 200px;
+    width: 100%;
+    padding: 20px 0;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    h3{
+        font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 26px;
+     line-height: 26px;
+     color: #9E9E9E;
+     }
+}
+.information{
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.card:hover{
+    transition: all 2s ease-in-out;
+    .bg_content{
+top: 0;
+    }
+} 

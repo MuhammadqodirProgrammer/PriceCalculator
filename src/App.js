@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import './App.css';
-import Header from './components/Header/Header';
+import Carousel from './components/Carousel/Carousel';
 
 function App() {
 
@@ -152,7 +152,10 @@ setTotal(280)
 }
 	return (
 		<div className='App'>
-    <Header />
+			<section className='container mx-auto mt-4'> 
+
+<Carousel />
+			</section>
 			<div className='container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10'>
 			{/* PriceCalculator */}
 				<h1 className='text-center font-normal'>
@@ -331,6 +334,9 @@ setTotal(280)
 					</div>
 				</form>
 			</div>
+		
+
+		
 		</div>
 	);
 }
